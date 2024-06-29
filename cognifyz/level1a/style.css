@@ -1,0 +1,39 @@
+.task1a{
+    text-align: center;
+
+}
+
+.heading{
+    color:#a83238;
+    font-size:50px;
+    font-style:italic;
+    text-decoration:underline;
+    word-spacing:15px;
+}
+
+.para{
+    color:pink;
+    font-size:30px;
+    text-decoration:dotted;
+}
+.paragraph{
+    color:darkred;
+    font-size:15px;
+    letter-spacing:1px;
+}
+.para1{
+    color:#325da8;
+    font-size:15px;
+    letter-spacing:1px;
+}
+
+.para2{
+    color:#32a83c;
+    font-size:15px;
+    letter-spacing:1px;
+}
+
+.image{
+    height:250px;
+    width:350px;
+}

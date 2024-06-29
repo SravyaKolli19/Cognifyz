@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #e96161;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #e383d6;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(28, 15, 15);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+}
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        background-color: #333;
+        border-bottom: 1px solid #444;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header, nav, main, footer {
+        padding: 10px;
+        text-align: left;
+    }
+
+    nav ul li a {
+        padding: 8px;
+    }
+
+    main section {
+        margin-bottom: 20px;
+    }
+}
+.h1{
+    color: #195494;
+    text-decoration: underline;
+}
+.h2{
+    color: #0d9055;
+    text-decoration: underline;
+}
+.h3{
+    color: #90750b;
+    text-decoration: underline;
+}
+.h4{
+    color: #f35e1e;
+    text-decoration: underline;
+}
+.p1{
+    color: #8ab710;
+    font-size: 20px;
+}
+.p2{
+    color: #dc5858;
+    font-size: 20px;
+}
+.p3{
+    color: #31c961;
+    font-size: 20px;
+}
+.p4{
+    color: #26b0de;
+    font-size: 20px;
+}
+.h5{
+    text-decoration: underline;
+    color: #333;
+}
+.main{
+    background-color: #e8f0bb;
+}
+.home{
+    color: white;
+}
+.about{
+    color: white;
+}
+.services{
+    color: white;
+}
+.contact{
+    color: white;
+}
+.para{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}

@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #c8e72d; 
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #f9256c;
+    color:black;
+  }
+  
+  .navbar a:active {
+    background-color: #9369ef;
+    color:black;
+  }

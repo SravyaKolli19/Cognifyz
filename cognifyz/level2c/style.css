@@ -1,0 +1,37 @@
+.num1{
+    color:blue;
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.num2{
+    color:rgb(81, 132, 4);
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.button{
+    background-color: bisque;
+    display:block;
+    margin:auto;
+}
+.h1{
+    color: rgb(220, 64, 12);
+    display:flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.center1{
+    margin:auto;
+    display: block;
+}
+.result{
+    color:darkmagenta;
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.mybody{
+    background-color:rgb(211, 180, 133);
+}
